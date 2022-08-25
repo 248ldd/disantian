@@ -1,3 +1,6 @@
+// 给vscode编辑器提示用
+// import '@/main.js' @符号代表 src
+// src/* *代表src下面的东西
 {
   "compilerOptions": {
     "target": "es5",
@@ -5,15 +8,8 @@
     "baseUrl": "./",
     "moduleResolution": "node",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"]
     },
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ]
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   }
 }
